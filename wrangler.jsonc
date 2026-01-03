@@ -1,5 +1,5 @@
 {
-  "name": "webtrotion-blog",
+  "name": "webtrotion-astro-notion-cms-website-blog",
   "compatibility_date": "2026-01-03",
   "assets": {
     "directory": "./dist"
