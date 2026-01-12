@@ -15,7 +15,7 @@
 		// Your name or the name of your site's author. Used in RSS feeds, OG images etc and other metadata for attribution.
 		author: "IMFC",
 		// Your custom domain name (e.g., "example.com"). Important: Do NOT include "https://" or a trailing slash. Leave this empty if you are deploying to a service like Vercel or Netlify without a custom domain.
-		"custom-domain": "",
+		"custom-domain": "imfc.club",
 		// The sub-directory your site is deployed in (e.g., "/blog"). Leave empty if your site is at the root of your domain. Must start with a forward slash "/" if used.
 		"base-path": "",
 		// If the Authors property doesn't exist in your Notion database, all settings from now on below in this key are ignored.
@@ -49,13 +49,14 @@
 		// The name of the Notion 'Collection' property value for pages that should appear in the main navigation menu. These are treated as static pages (e.g., 'About', 'Contact') rather than blog posts.
 		"menu-pages-collection": "main",
 		// An array of 'Collection' names where posts should be displayed in full on list pages. Useful for microblogs or "stream" style collections where showing the full content is desired.
-		"full-preview-collections": ["Stream","Events","Main"],
+		//"full-preview-collections": ["Stream","Events","Main"],
+		"full-preview-collections": ["Events"],
 		// If true, any post with a slug starting with an underscore (e.g., "_draft-post") will be hidden from all lists (home page, collections, tags), from sitemap and search. The page will still be built and accessible via its direct URL.
 		"hide-underscore-slugs-in-lists": true,
 		// Listing view style for post lists.
 		// "list" (default): Traditional vertical list with title, date, excerpt, and tags.
 		// "gallery": Card-based grid layout with FeaturedImage thumbnails.
-		"listing-view": "list",
+		"listing-view": "gallery",
 	},
 
 	// === Theme Customization ===
